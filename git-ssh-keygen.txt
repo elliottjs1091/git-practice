@@ -1,0 +1,9 @@
+ssh-keygen -t ed25519 -C <email>
+# generates a new ssh key.
+
+cat ~/.ssh/id_ed25519.pub
+# gets the public key of the generated ssh key
+
+ssh -T git@github.com
+# verify that the ssh connection has been verified with github
+
