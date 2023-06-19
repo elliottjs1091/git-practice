@@ -1,3 +1,10 @@
+git config --global init.default.Branch main
+# set local default git branch to main
+
+basic workflow - clone repo > create or change file > add to stage > commit to branch (local repo?) with message > push to remote repo
+
+# see git-explanation about cloning from github
+
 touch - create an empty file on linux bash
 echo nul > filename.txt - create an empty file on windows cmd
 New-Item <path>\<empty-filename> - create and empty file on windows powershell
@@ -42,10 +49,10 @@ git log
 # view historical entries to the repository.
 
 git push
-# only if you are not working with another branch. < git push origin main >
+# only if you are not working with another branch. < git push origin main >. origin is the name of the remote connection for the remote repository (by default). main is the local default git branch.
 
 Atomic commit - a commit includes changes related to only one feature or task of a program. This helps with reverting specific changes (leaving other changes alone), and with writing better commit messages.
 
-
-
+git config --global core.editor "code --wait"
+# change git commit editor 
 
