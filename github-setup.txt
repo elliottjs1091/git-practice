@@ -1,0 +1,16 @@
+GITHUB SETUP
+
+GENERATE SSH PUBLIC KEY
+check if an ssh key isn't already stored
+
+$ cd ~/.ssh	// change current directory to .ssh (. indicates hidden file)
+$ ls		// print working directory
+
+Files with .pub extension will be the public key
+
+If .ssh or .pub doesn't exist
+
+$ ssh-keygen -o
+
+The -o switch prompts for new password
+

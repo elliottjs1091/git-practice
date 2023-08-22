@@ -1,1 +1,0 @@
-command-shift-p > search for command shell: add vscode to path

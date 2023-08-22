@@ -1,0 +1,69 @@
+
+YOU CAN GET A GIT REPO IN 2 WAYS
+	1 TAKE A LOCAL DIRECTORY NOT UNDER VERSION CONTROL AND TURN IT INTO A GET REPO,
+	2 CLONE AN EXISTING GIT REPO FROM SOMEWHERE ELSE
+
+QUICKSTART REFERENCE!
+
+
+INITIALISING A REPOSITORY FROM EMPTY DIRECTORY
+
+$ git init
+
+CLONE EXISTING REPOSITORY
+
+$ git clone < url >
+
+CHECK FILE STATUS
+
+$ git status
+
+TRACK NEW FILES
+
+$ git add < file >
+
+STAGE MODIFIED FILES
+
+$ git status
+
+SHORT STATUS
+
+$ git status -s
+	[  _ working tree ]
+	[ _  staging area ]
+	[ ?? untracked ]
+	[ AA added ]
+	[ MM modified ]
+	[  A added to working tree ]
+	[ A  added to staging area ]
+	[  M added to working tree ]
+	[ M  added to staging area ]
+
+IGNORE FILES
+
+Create a .gitignore text file to add patterns for files to be excluded from tracking.
+
+VIEW STAGED AND UNSTAGED CHANGES
+
+$ git status
+
+$ git diff
+See exactly what changed
+
+COMMIT CHANGES
+
+$ git commit -m < message >
+You will need to write a commit message if -m is present
+
+SKIP STAGING AREA
+
+$ git commit -a -m < message >
+Lets you skip the add step with -a switch
+
+REMOVE FILES FROM GIT
+
+$ git rm
+
+Stage for removal from git tracking
+
+

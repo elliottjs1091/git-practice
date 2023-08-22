@@ -1,0 +1,30 @@
+SHOW REMOTES
+
+$ cd ~/<path-to-remote-repo>/
+Change to repo directory before remote command
+
+$ git remote -v
+
+-v shows URL for shortname used for pull/fetch
+
+ADD REMOTES EXPLICITLY
+
+$ git remote add <shortname> <url>
+
+FETCH VS PULL FROM REMOTES
+
+$ git fetch origin
+Pull down data from remote project that isn't in the local.
+
+$ git pull
+Fetches data then merges it into the current branch
+
+PUSH TO REMOTES
+
+$ git push <remote:origin> <branch:main>
+
+INSPECT REMOTES
+
+$ git remote show <remote:origin>
+
+

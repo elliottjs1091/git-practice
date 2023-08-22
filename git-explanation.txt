@@ -1,3 +1,0 @@
-git clone git@github.com:elliottjs1091/git-practice
-git clone git@github.com:<username>/<repository-name>
-# clone - download a complete mirror from git
