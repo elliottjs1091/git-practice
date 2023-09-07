@@ -27,4 +27,6 @@ INSPECT REMOTES
 
 $ git remote show <remote:origin>
 
+MERGE CONFLICTING HISTORIES
+$ git pull origin main --allow-unrelated-histories
 

@@ -2,7 +2,7 @@ GITHUB SETUP
 
 GENERATE SSH PUBLIC KEY
 check if an ssh key isn't already stored
-
+/Users/jameselliott/git-repositories/git-practice/git-remotes.txt
 $ cd ~/.ssh	// change current directory to .ssh (. indicates hidden file)
 $ ls		// print working directory
 
